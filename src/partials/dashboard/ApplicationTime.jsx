@@ -47,7 +47,7 @@ function ApplicationTime() {
       {/* Chart built with Chart.js 3 */}
       <div className="grow">
         {/* Change the height attribute to adjust the chart height */}
-        {labels && <LineChart data={chartData} width={389} height={250} />}
+        {labels && <LineChart data={chartData} width={389} height={400} />}
       </div>
     </div>
   );
